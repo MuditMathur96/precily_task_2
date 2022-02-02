@@ -1,0 +1,23 @@
+###
+POST http://localhost:5005/tasks/create
+Content-Type: application/json
+
+{
+    "content":"An apple a day keeps the doctor away"
+}
+###
+
+###
+Get http://localhost:5005/thougths/getall
+Content-Type: application/json
+
+###
+
+###
+PUT http://localhost:5005/tasks/61f965d7691bc7e95eb119b3
+Content-Type: application/json
+
+{
+    "content":"Update apple thougth"
+}
+###
